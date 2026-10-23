@@ -1,0 +1,127 @@
+{
+    box-sizing: content-box;
+}
+
+body {
+    font-family: cursive;
+    font-size: larger;
+    -webkit-text-stroke: 1px #faf0ff;
+    margin: 20px;
+    color: #222;
+    background: url(galaxia.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+    font-size: larger;
+
+}
+
+h1 {
+    color: #712a91;
+    font-weight: 200;
+    font-family: fantasy;
+}
+
+h2 {
+    color: #712a91;
+    font-size: 22px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    align-items: start;
+}
+
+.exemplo {
+    min-width: 0;
+    padding: 10px;
+}
+
+/* ESTILO PADRÃO DAS CAIXAS */
+.caixa {
+    background-color: #9c76d6;
+    width: 200px;
+    height: 200px;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+/* EXEMPLO 1: WIDTH E HEIGHT */
+.exemplo1 {
+    width: 200px;
+    height: 200px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* EXEMPLO 2: PADDING DE 2em */
+.exemplo2 {
+    width: 200px;
+    height: 200px;
+    padding: 2em;
+    border: none;
+    margin: 0;
+}
+
+/* EXEMPLO 3: BORDA DE 4px */
+.exemplo3 {
+    width: 200px;
+    height: 200px;
+    padding: 2em;
+    border: 4px solid #5c3991;
+    margin: 0;
+}
+
+/* EXEMPLO 4: MARGIN DE 2em */
+.area4 {
+    width: 270px;
+    border: 2px dashed #c4b1e0;
+    padding: 20px;
+}
+
+.exemplo4 {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border: 4px solid #6e3aba;
+    margin: 2em;
+}
+
+/* EXEMPLO 5: PADDING, BORDER E MARGIN */
+.area5 {
+    width: 390px;
+    min-height: 250px;
+    border: 2px dashed #c4b1e0;
+    padding: 20px;
+}
+
+.exemplo5 {
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+    border: 4px dashed #62458c;
+    margin: 1em;
+}
+
+/* EXEMPLO 6: MARGIN AUTOMÁTICA */
+.area6 {
+    width: 100%;
+    min-height: 220px;
+    border: 2px dashed#c4b1e0;
+    display: flex;
+    justify-content: center;
+}
+
+.exemplo6 {
+    width: 250px;
+    height: 200px;
+    padding: 1em;
+    border: 2px solid #62458c;
+    margin: 0 auto;
+}
